@@ -1,6 +1,6 @@
-# Freelancer Dashboard
+# Flowlance
 
-Freelancer Dashboard is a sleek and aesthetic web application designed to help freelancers efficiently manage their projects, clients, and finances. The project combines modern UI/UX design with interactive visualizations, a drag-and-drop Kanban board, and structured data display using Material UI. Built with React, Tailwind CSS, and TypeScript, this project demonstrates proficiency in modern front-end development practices and responsive design.
+Flowlance is a sleek and aesthetic web application designed to help freelancers efficiently manage their projects, clients, and finances. The project combines modern UI/UX design with interactive visualizations, a drag-and-drop Kanban board, and structured data display using Material UI. Built with React, Tailwind CSS, and TypeScript, this project demonstrates proficiency in modern front-end development practices and responsive design.
 
 ## Table of Contents
 
@@ -13,12 +13,13 @@ Freelancer Dashboard is a sleek and aesthetic web application designed to help f
 
 ## Overview
 
-Freelancer Dashboard simulates a real-world freelancer management system. The application allows users to view and manage:
+Flowlance simulates a real-world freelancer management system. The application allows users to view and manage:
 
 - **Projects:** A list of active projects with details and interactive visualizations (using Chart.js).
 - **Clients:** Client data is presented in a responsive data table with action buttons for viewing detailed client profiles.
 - **Finances:** Financial data and analytics for tracking revenue and outstanding payments.
 - **Tasks:** An interactive Kanban board with drag-and-drop functionality for managing project tasks.
+- **Invoices:** View information about client invoices.
 
 The project leverages:
 
@@ -65,7 +66,7 @@ The project leverages:
 
 **Navigation:**
 
-- **The application features a sidebar menu and a top navigation bar. Users can switch between dashboards for projects, clients, finances, and tasks.**
+- **The application features a sidebar menu. Users can switch between dashboards for projects, clients, finances, and tasks.**
 
 **Viewing Data:**
 
@@ -74,10 +75,6 @@ The project leverages:
 **Managing Tasks:**
 
 - **Use the Kanban board to drag and drop task cards between columns. This interface updates the task status dynamically.**
-
-**Adding New Items:**
-
-- **Click the “Add New” button (found on the Clients or Projects pages) to open a modal form. The form is dynamically generated based on the provided field definitions.**
 
 ## Challenges & Solutions
 
@@ -114,12 +111,6 @@ Maintaining a consistent look and feel across different screen sizes.
 Tailwind CSS utility classes and responsive design techniques are used throughout the project to ensure a seamless experience on any device.
 
 ## Future Improvements
-
-**Enhanced Accessibility:**
-Further improve accessibility by adding ARIA attributes and better keyboard navigation support.
-
-**Performance Optimizations:**
-Implement memoization (using useMemo/useCallback) and consider code splitting for performance improvements.
 
 **Backend Integration:**
 Replace local storage with a backend API to enable real-time data persistence and multi-user support.
