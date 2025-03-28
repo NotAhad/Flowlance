@@ -8,7 +8,7 @@ import BoxOverview from "../Components/BoxOverview";
 const Home = () => {
   return (
     <div className="grid gap-[20px] auto-rows-[minmax(180px,_auto)] mb-[25px]">
-      {/* Always 3 columns for the first three boxes */}
+      
       <div className="grid grid-cols-3 lg:grid-cols-3 gap-[20px]">
         <div className="p-[20px] rounded-[7.5px] border-[2px] bg-blue-600">
           <BoxOverview amount={"6"} title="AMOUNT" />
@@ -21,7 +21,6 @@ const Home = () => {
         </div>
       </div>
 
-      {/* Responsive grid for the rest */}
       <div className="grid grid-cols-1  xl:grid-cols-2 2xl:grid-cols-3 gap-[20px]">
         <div className="p-[20px] rounded-[7.5px] border-[2px] row-span-2">
           <BoxEarnings />

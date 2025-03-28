@@ -120,7 +120,6 @@ const Column = ({ title, column, cards, setCards }: ColumnProps) => {
     >
       <div className="mb-3 flex items-center justify-between">
         <h3>{title}</h3>
-        {/* Apply dynamic text color */}
         <span className={`${textColor}`}>{filteredCards.length}</span>
       </div>
       <div className="h-full w-full">
