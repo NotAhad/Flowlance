@@ -495,11 +495,11 @@ export const portfolioTasks = [
     { id: "11", column: "completed", title: "Implement contact form with email integration" },
 ];
 
-export const projectTasks = {
-    1: cryptoTrackerTasks,
-    2: adminDashboardTasks,
-    3: portfolioTasks,
-};
+export const projectTasks: { [key: string]: { id: string; column: string; title: string }[] } = {
+    "1": cryptoTrackerTasks,
+    "2": adminDashboardTasks,
+    "3": portfolioTasks,
+};  
 
 export const jaredHubertActivity = [
     { text: "Completed initial consultation for the Crypto Tracker project.", date: "16.01.25" },
@@ -525,8 +525,8 @@ export const steveWorksActivity = [
     { text: "Confirmed the final timeline for Portfolio project delivery.", date: "03.01.25" },
 ];
 
-export const activities: { [id: number]: { text: string; date: string }[] } = { 
-    0: jaredHubertActivity,
-    1: emmaJonesActivity,
-    2: steveWorksActivity,
-};  
+export const activities: { [id: string]: { text: string; date: string }[] } = { 
+    "0": jaredHubertActivity,
+    "1": emmaJonesActivity,
+    "2": steveWorksActivity,
+}; 

@@ -26,9 +26,9 @@ type AddCardProps = {
 };
 
 export const Tasks = () => {
-  const { id } = useParams(); 
+  const { id } = useParams<{ id: string }>();
 
-  if (!activities[id]) {
+  if (!id || !activities[id]) {
     return <div>PROJECT NOT FOUND</div>;
   }
 
@@ -38,6 +38,7 @@ export const Tasks = () => {
     </div>
   );
 };
+
 
 export const Board = ({ projectId }: { projectId: string }) => {
   const [cards, setCards] = useState<Card[]>(projectTasks[projectId] || []);
