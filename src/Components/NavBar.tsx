@@ -9,18 +9,18 @@ const NavBar = () => {
         <div className="flex items-center gap-[10px]">
           <img
             className="w-[26px] h-[26px] rounded-[4px] object-cover"
-            src="/public/noavatar.png"
+            src="/noavatar.png"
             alt=""
           />
           <span>AHAD</span>
         </div>
         <div className="flex items-center relative">
-          <img src="/public/notifications.svg" alt="" />
+          <img src="/notifications.svg" alt="" />
           <span className="bg-indigo-900 w-[16px] h-[16px] rounded-[4px] absolute -translate-y-[10px] translate-x-[20px] items-center justify-center flex text-[12px]">
             1
           </span>
         </div>
-        <img src="/public/settings.svg" alt="" />
+        <img src="/settings.svg" alt="" />
       </div>
     </div>
   );

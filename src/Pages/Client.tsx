@@ -78,7 +78,7 @@ const Client = () => {
           <div className="flex gap-4 bg-blue-600 p-2 rounded-[7.5px] mb-[25px]">
             <img
               className="sm:size-16 xl:size-24 2xl:size-32 rounded-[7.5px] object-cover hidden xl:block"
-              src="/public/element.svg"
+              src="/element.svg"
               alt=""
             />
             <div className=" grid grid-cols-2 gap-4  md:grid-cols-3 xl:gap-x-10 2xl:gap-x-32">
@@ -116,7 +116,7 @@ const Client = () => {
           <div className="flex gap-4 bg-green-600 p-2 rounded-[7.5px] mb-[25px]">
             <img
               className="sm:size-16 xl:size-24 2xl:size-32 rounded-[7.5px] object-cover hidden xl:block"
-              src="/public/log.svg"
+              src="/log.svg"
               alt=""
             />
             <div className="grid grid-cols-2 gap-4 md:grid-cols-3 xl:gap-x-10 2xl:gap-x-32">
