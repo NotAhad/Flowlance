@@ -32,7 +32,7 @@ export const menu = [
 export const clientsData = [
     {
         id: 1,
-        image: "/public/iconmonkey.png",
+        image: "/iconmonkey.png",
         name: "JARED HUBERT",
         email: "JAREDH@GMAIL.COM",
         phone: "123 456 789",
@@ -43,7 +43,7 @@ export const clientsData = [
     },
     {
         id: 2,
-        image: "/public/iconfox.png",
+        image: "/iconfox.png",
         name: "EMMA JONES",
         email: "EMMAJ@GMAIL.COM",
         phone: "123 456 789",
@@ -54,7 +54,7 @@ export const clientsData = [
     },
     {
         id: 3,
-        image: "/public/iconlion.png",
+        image: "/iconlion.png",
         name: "STEVE WORKS",
         email: "STEVEW@GMAIL.COM",
         phone: "123 456 789",
